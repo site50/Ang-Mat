@@ -1,0 +1,22 @@
+.dialog {
+    padding: 2px 25px 2px !important;
+}
+
+#action,
+#title_dialog {
+    justify-content: center;
+    background: #ffa50082;
+    font-style: oblique;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a12016;
+}
+
+#button_ok:hover {
+    background: #bb86e3;
+}

@@ -1,0 +1,11 @@
+"id","image","name","company","price","quantity","quan"
+1,"assets/apple12pro.png","iPhone 12 Pro","Apple",839,1,True
+2,"assets/apple12.png","iPhone 12","Apple",600,1,True
+3,"assets/apple11.png","iPhone 11","Apple",700,1,True
+4,"assets/apple6.png","iPhone 6","Apple",400,1,True
+5,"assets/guluxy-s8.png","Galaxy S8","Sumsung",700,1,True
+6,"assets/sumGs8plus.png","Galaxy S8 Plus","Sumsung",850,1,True
+7,"assets/desire12.png","Desire 12","HTH",234,1,True
+8,"assets/sumGS6.png","Galaxy S6","Nokia",200,1,True
+9,"assets/guluxy-22s8.png","Galaxy S22 8","Sumsung",700,1,True
+10,"assets/sumnot10.png","Samsung Galaxy Note10","Sumsung",600,1,True

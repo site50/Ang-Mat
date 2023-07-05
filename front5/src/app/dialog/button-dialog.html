@@ -1,0 +1,14 @@
+<div mat-dialog-title id="title_dialog">
+    In Shopping Cart:
+</div>
+<div mat-dialog-content class="dialog" *ngFor="let x of this.carts; let i=index">
+    {{x.name}}
+</div>
+<div id="cont_actions">
+    <div mat-dialog-actions id="action">
+        <button mat-button mat-dialog-close cdkFocusInitial id="button_ok">Ok</button>
+        <button mat-dialog-close cdkFocusInitial mat-flat-button color="warn" (click)=" onClickCart()">
+            Cart
+        </button>
+    </div>
+</div>

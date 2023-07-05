@@ -1,0 +1,54 @@
+.mat-mdc-table {
+  background: antiquewhite;
+  margin-top: 3vw;
+}
+
+.mdc-button {
+  line-height: 1vw;
+  margin-left: auto;
+}
+
+.mat-mdc-table .mdc-data-table__row:hover {
+  background-color: #e9e6e4;
+}
+
+#bold:hover {
+  font-weight: 600;
+}
+
+#img {
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+#img:hover {
+  transform: scale(3);
+  position: absolute;
+  left: 10%;
+  background-color: #7b7e7e;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.mat-mdc-table .mdc-data-table__row {
+  height: 10vw;
+}
+
+@media only screen and (max-width: 950px) {
+  .mdc-button {
+    line-height: initial;
+    font-size: 75%;
+    padding: 1vw;
+  }
+
+  #img {
+    height: 11vw;
+  }
+
+  #text_button {
+    line-height: 1.7vw;
+  }
+
+  #text_button_incart {
+    line-height: 1.7vw;
+  }
+}
